@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testAgitModelStoreContainer" CdmEntityContainer="testAgitEntities">
+    <EntitySetMapping Name="data_fruit">
+      <EntityTypeMapping TypeName="testAgitModel.data_fruit">
+        <MappingFragment StoreEntitySet="data_fruit">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="item_type" ColumnName="item type" />
+          <ScalarProperty Name="priority" ColumnName="priority" />
+          <ScalarProperty Name="ship_date" ColumnName="ship_date" />
+          <ScalarProperty Name="unit_price" ColumnName="unit_price" />
+          <ScalarProperty Name="unit_cost" ColumnName="unit_cost" />
+          <ScalarProperty Name="fruit" ColumnName="fruit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
